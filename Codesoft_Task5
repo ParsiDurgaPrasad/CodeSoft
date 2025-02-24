@@ -15,7 +15,7 @@ public class StudentManagementApp {
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -73,7 +73,7 @@ public class StudentManagementApp {
     }
 }
 class Student implements Serializable {
-    private static final long serialVersionUID = 1L; // For serialization
+    private static final long serialVersionUID = 1L;
     private String name;
     private int rollNumber;
     private String grade;
