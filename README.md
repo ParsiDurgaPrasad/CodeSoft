@@ -1,1 +1,1 @@
- CodsofT Internship For Java programming
+ CodeSoft Internship For Java programming
